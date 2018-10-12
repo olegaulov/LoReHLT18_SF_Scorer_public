@@ -1,0 +1,11 @@
+user_id	doc_id	frame_id	frame_type	need_type	place_id	proxy_status	need_status	scope	severity	resolution_status	reported_by	resolved_by	description	kb_id
+1	File_1	Frame-1	need	food	Ent-1	False	current	4	4	insufficient	none	Ent-1	aaa	1
+1	File_1	Frame-1	need	food	Ent-1	False	current	4	4	insufficient	none	Ent-1	aaa	1
+1	File_1	Frame-1	need	food	Ent-1	False	current	4	4	insufficient	none	Ent-1	aaa	1
+1	File_1	Frame-1	need	evac	Ent-1	False	current	4	4	insufficient	none	Ent-1	aaa	1
+1	File_1	Frame-1	need	evac	Ent-1	False	current	4	4	insufficient	none	Ent-1	aaa	2
+1	File_1	Frame-1	need	evac	Ent-1	False	current	4	4	insufficient	none	Ent-1	aaa	2
+1	File_1	Frame-1	need	water	Ent-1	False	current	4	4	insufficient	none	Ent-1	aaa	2
+1	File_1	Frame-1	need	water	Ent-1	False	current	4	4	insufficient	none	Ent-1	aaa	3
+1	File_1	Frame-1	need	water	Ent-1	False	current	4	4	insufficient	none	Ent-1	aaa	3
+1	File_1	Frame-1	need	shelter	Ent-1	False	current	4	4	insufficient	none	Ent-1	aaa	4

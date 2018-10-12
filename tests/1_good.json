@@ -1,0 +1,22 @@
+[
+    {
+        "DocumentID": "CMN_NG_000004_20080609_80020004C",
+        "Type": "evac",
+        "Justification_ID": "Segment-0",
+        "Place_KB_ID": "NIL0000021",
+        "Confidence": 1,
+        "Status": "current",
+        "Resolution": "insufficient",
+        "Urgent": false
+    },
+    {
+        "DocumentID": "CMN_NG_000004_20080609_80020004C",
+        "Type": "med",
+        "Justification_ID": "Segment-0",
+        "Place_KB_ID": "NIL0000021",
+        "Confidence": 1,
+        "Status": "current",
+        "Resolution": "insufficient",
+        "Urgent": true
+    }
+]

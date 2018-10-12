@@ -1,0 +1,20 @@
+[
+    {   
+        "Type": "food",
+        "Justification_ID": "Segment-0",
+        "Place_KB_ID": 999999,
+        "Confidence": 1,
+        "Status": "current",
+        "Resolution": "insufficient",
+        "Urgent": true
+    },
+    {   
+        "Type": "food",
+        "Justification_ID": "Segment-0",
+        "Place_KB_ID": 999999,
+        "Confidence": 1,
+        "Status": "current",
+        "Resolution": "insufficient",
+        "Urgent": true
+    }
+]

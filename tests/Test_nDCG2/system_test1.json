@@ -1,0 +1,102 @@
+[
+    {
+        "DocumentID": "File_3",
+        "Type": "evac",
+        "Justification_ID": "mislabeled food@1 for evac@2",
+        "Place_KB_ID": "2",
+        "Confidence": 1,
+        "Status": "current",
+        "Resolution": "insufficient",
+        "Urgent": true
+    },
+    {
+        "DocumentID": "File_4",
+        "Type": "evac",
+        "Justification_ID": "Segment-0",
+        "Place_KB_ID": "2",
+        "Confidence": 1,
+        "Status": "current",
+        "Resolution": "insufficient",
+        "Urgent": true
+    },
+    {
+        "DocumentID": "File_5",
+        "Type": "evac",
+        "Justification_ID": "Segment-0",
+        "Place_KB_ID": "2",
+        "Confidence": 1,
+        "Status": "current",
+        "Resolution": "insufficient",
+        "Urgent": true
+    },
+    {
+        "DocumentID": "BadFile_1",
+        "Type": "shelter",
+        "Justification_ID": "nonexistant1",
+        "Place_KB_ID": "3",
+        "Confidence": 1,
+        "Status": "current",
+        "Resolution": "insufficient",
+        "Urgent": true
+    },
+    {
+        "DocumentID": "BadFile_2",
+        "Type": "shelter",
+        "Justification_ID": "nonexistant2",
+        "Place_KB_ID": "3",
+        "Confidence": 1,
+        "Status": "current",
+        "Resolution": "insufficient",
+        "Urgent": true
+    },
+    {
+        "DocumentID": "File_6",
+        "Type": "water",
+        "Justification_ID": "Segment-0",
+        "Place_KB_ID": "9",
+        "Confidence": 1,
+        "Status": "current",
+        "Resolution": "insufficient",
+        "Urgent": true
+    },
+    {
+        "DocumentID": "File_7",
+        "Type": "water",
+        "Justification_ID": "Segment-0",
+        "Place_KB_ID": "9",
+        "Confidence": 1,
+        "Status": "current",
+        "Resolution": "insufficient",
+        "Urgent": true
+    },
+    {
+        "DocumentID": "File_1",
+        "Type": "food",
+        "Justification_ID": "Segment-0",
+        "Place_KB_ID": "1",
+        "Confidence": 1,
+        "Status": "current",
+        "Resolution": "insufficient",
+        "Urgent": true
+    },
+    {
+        "DocumentID": "File_2",
+        "Type": "food",
+        "Justification_ID": "Segment-0",
+        "Place_KB_ID": "1",
+        "Confidence": 1,
+        "Status": "current",
+        "Resolution": "insufficient",
+        "Urgent": true
+    },
+    {
+        "DocumentID": "File_8",
+        "Type": "shelter",
+        "Justification_ID": "Segment-0",
+        "Place_KB_ID": "4",
+        "Confidence": 1,
+        "Status": "current",
+        "Resolution": "insufficient",
+        "Urgent": true
+    }
+]

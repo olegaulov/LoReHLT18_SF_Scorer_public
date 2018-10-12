@@ -1,0 +1,2 @@
+user_id	doc_id	frame_id	frame_type	issue_type	place_id	proxy_status	issue_status	scope	severity	description	kb_id
+2	File_2	Frame-1	issue	terrorism	none	False	current	4	4	aaa	

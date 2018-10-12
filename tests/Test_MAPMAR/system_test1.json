@@ -1,0 +1,52 @@
+[
+    {
+        "Confidence": 0.8, 
+        "DocumentID": "File_1", 
+        "Justification_ID": "segment-0",  
+        "Place_KB_ID": "1", 
+        "Resolution": "insufficient", 
+        "Status": "current", 
+        "Type": "food", 
+        "Urgent": true
+    },
+    {
+        "Confidence": 0.79, 
+        "DocumentID": "File_1", 
+        "Justification_ID": "cheatersDuplicate",  
+        "Place_KB_ID": "1", 
+        "Resolution": "insufficient", 
+        "Status": "future", 
+        "Type": "food", 
+        "Urgent": false
+    },
+    {
+        "Confidence": 0.7, 
+        "DocumentID": "File_2", 
+        "Justification_ID": "segment-0",  
+        "Place_KB_ID": "1", 
+        "Resolution": "insufficient", 
+        "Status": "current", 
+        "Type": "food", 
+        "Urgent": true
+    },
+    {
+        "Confidence": 0.9, 
+        "DocumentID": "File_3", 
+        "Justification_ID": "segment-0",  
+        "Place_KB_ID": "1", 
+        "Resolution": "insufficient", 
+        "Status": "current", 
+        "Type": "food", 
+        "Urgent": false
+    },
+    {
+        "Confidence": 0.85, 
+        "DocumentID": "File_1", 
+        "Justification_ID": "wrongframe",  
+        "Place_KB_ID": "1", 
+        "Resolution": "insufficient", 
+        "Status": "current", 
+        "Type": "shelter", 
+        "Urgent": true
+    }
+]

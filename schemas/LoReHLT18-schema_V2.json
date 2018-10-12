@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$version": "LoReHLT18_v2.0",
+  "definitions": {
+      "need_frame": {
+	  "type": "object",
+	  "properties": {
+	      "DocumentID": { "type": "string" },
+	      "Type": { "type": "string",
+			"enum": [ "evac",
+				  "food",
+				  "infra",
+				  "med",
+				  "search",
+				  "shelter",
+				  "utils",
+				  "water" ] },
+	      "Confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+	      "Place_KB_ID": { "type": "string" },
+	      "Justification_ID": { "type": "string" },
+	      "Status":{
+	      	   "type": "string",
+			   "enum": [ "current",
+				  "future",
+				  "past"] },
+		  "Resolution": {
+			  "type": "string",
+			  "enum": [ "sufficient",
+				    "insufficient" ] },
+		  "Urgent": { "type": "boolean" }
+		  },
+	  "required": ["DocumentID", "Confidence", "Justification_ID", "Type", "Status", "Resolution", "Urgent", "Place_KB_ID"]
+      },
+      "issue_frame": {
+	  "type": "object",
+	  "properties": {
+	      "DocumentID": { "type": "string" },
+	      "Type": { "type": "string",
+			"enum": [ "regimechange",
+				  "crimeviolence",
+				  "terrorism" ] },
+	      "Confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+	      "Place_KB_ID": { "type": "string" },
+	      "Justification_ID": { "type": "string" },
+	      "Status": {
+		  "type": "string",
+		  "enum": [ "current",
+				  "not_current"] },
+		  "Urgent": { "type": "boolean" }
+	  },
+	  "required": ["DocumentID", "Confidence", "Justification_ID", "Type", "Status", "Urgent", "Place_KB_ID"]
+  }
+},
+  "type": "array",
+  "items": {
+      "anyOf": [ { "$ref": "#/definitions/need_frame" },
+		 { "$ref": "#/definitions/issue_frame" } ]
+  }
+}
